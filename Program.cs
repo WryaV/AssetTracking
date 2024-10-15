@@ -17,10 +17,10 @@ public class Program
         while (!exit)
         {
             Console.WriteLine("Please choose an option:");
-            Console.WriteLine("1. Add a new product");
-            Console.WriteLine("2. View the current product list");
-            Console.WriteLine("3. Remove a product");
-            Console.WriteLine("4. Search for a product");
+            Console.WriteLine("1. Add a new asset");
+            Console.WriteLine("2. View the current asset list");
+            Console.WriteLine("3. Remove a asset");
+            Console.WriteLine("4. Search for a asset");
             Console.WriteLine("5. Exit and show the final List ");
             Console.WriteLine("Type 'exit' to quit the program at any time.");
 
