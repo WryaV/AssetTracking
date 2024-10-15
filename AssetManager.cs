@@ -58,7 +58,7 @@ namespace AssetTracking
 
         public void ViewCurrentList() // if User choose 2, this function gives them the current class for all assets
         {
-            Console.WriteLine("Viewing the current product list:\n");
+            Console.WriteLine("Viewing the current Asset list:\n");
 
             Console.WriteLine("---- Laptops ----");
             Laptop.PrintLaptops();
@@ -84,7 +84,7 @@ namespace AssetTracking
 
         public void RemoveProduct() // to Remove an asset from a specific category, like Phone or Laptop
         {
-            Console.WriteLine("Which category of product do you want to remove?");
+            Console.WriteLine("Which category of Asset do you want to remove?");
             Console.WriteLine("1. Laptop");
             Console.WriteLine("2. Monitor");
             Console.WriteLine("3. Phone");
@@ -99,7 +99,7 @@ namespace AssetTracking
                 Console.WriteLine("Please insert a number between 1 to 7.");
             }
 
-            Console.WriteLine("Enter the serial number of the product you want to remove:");
+            Console.WriteLine("Enter the serial number of the Asset you want to remove:");
             int serialNumber;
             while (!int.TryParse(Console.ReadLine(), out serialNumber))
             {
@@ -137,7 +137,7 @@ namespace AssetTracking
 
         public void SearchProduct() // Search between classes based on the serial number provided
         {
-            Console.WriteLine("Which category of product do you want to search?");
+            Console.WriteLine("Which category of Asset do you want to search?");
             Console.WriteLine("1. Laptop");
             Console.WriteLine("2. Monitor");
             Console.WriteLine("3. Phone");
@@ -152,7 +152,7 @@ namespace AssetTracking
                 Console.WriteLine("Please insert a number between 1 to 7.");
             }
 
-            Console.WriteLine("Enter the serial number of the product you want to search:");
+            Console.WriteLine("Enter the serial number of the Asset you want to search:");
             int serialNumber;
             while (!int.TryParse(Console.ReadLine(), out serialNumber))
             {
