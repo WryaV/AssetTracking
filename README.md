@@ -19,5 +19,5 @@ This is a C# console application designed to manage, search, and display informa
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/AssetTracking.git
+git clone https://github.com/WryaV/AssetTracking.git
 cd AssetTracking
